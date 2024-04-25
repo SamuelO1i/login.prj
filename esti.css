@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #262525;
+}
+
+.container{
+    width: 450px;
+    height: 630px;
+    background-color: #0f0f10;
+    border-radius: 30px 10px 30px 10px;
+    padding: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    transform: translateY(1%);
+    flex-direction: column;
+}
+
+.container h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: rgb(156, 185, 210);
+    border-bottom: 1px solid whitesmoke;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.container h3{
+    
+    
+    text-align: center;
+    padding-bottom: 7px;
+    color: rgb(107, 113, 119);
+    border-bottom: 1px solid whitesmoke;
+    font-size: rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.form{
+    margin-bottom: 1rem;
+}
+
+.form label, input{
+    display: block;
+    width: 100%;
+
+}
+
+.form label{
+    margin-bottom: 2px;
+    color: rgb(217, 207, 195);
+    font-size: 17px;
+}
+
+.gene{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.20rem;
+    padding: 0 0.3rem;
+}
+
+.gene input{
+    display: flex;
+    align-items: center;
+}
+
+.gene label{
+    font-size: 15px;
+}
+
+
+
+.form input{
+    padding: 13px;
+    outline: none;
+    border: 0;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.form a{
+    width: 100%;
+    background: rgb(48, 47, 47);
+    height: 50px;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(234, 225, 225);
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.form a:hover{
+    background: transparent;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-bottom: rgb(255, 255, 255) 1px solid;
+
+}
+
+button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    border: none;
+    background: transparent;
+}
+
+.link a{
+    color: rgb(174, 171, 168);
+
+}
+
+.link a:hover{
+    text-decoration: underline;
+    color: rgb(219, 221, 222);
+}
+
